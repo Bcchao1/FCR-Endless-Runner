@@ -32,8 +32,8 @@ this.p1Score = 0;
 let menuConfig = {
   fontFamily: 'Courier',
   fontSize: '28px',
-  backgroundColor: '#F3B141',
-  color: '#843605',
+  backgroundColor: '#41B9F3',
+  color: '#1019D7',
   align: 'right',
   padding: {
       top: 5,
@@ -50,7 +50,7 @@ let textSpacer = 64;
 
 this.add.text(centerX,centerY- textSpacer, 'Flappy Cat Runner', menuConfig).setOrigin(0.5);
 this.add.text(centerX,centerY,'Use <--> arrows to dodge', menuConfig).setOrigin(0.5);
-menuConfig.backgroundColor = '#00FF00';
+menuConfig.backgroundColor = '#36DFA8';
 menuConfig.color = '#000';
 this.add.text(centerX,centerY + textSpacer, 'Press <R> to Begin', menuConfig).setOrigin(0.5);
   
