@@ -16,8 +16,16 @@ class Spaceship extends Phaser.GameObjects.Sprite {
         }
     }
 
+
     reset(){
+
+        
+    let randomX = Math.floor(Math.random() * 500) + 1;
+    let randomY = Math.floor(Math.random() * 350) + 1;
+
         this.x = game.config.width;
+        this.y = randomY;
+
 
     }
 
